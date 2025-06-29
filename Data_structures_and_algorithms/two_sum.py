@@ -12,4 +12,4 @@ def two_sum(nums, target):
         num_map[num] = i
     return []
 
-print ( two_sum([1,2,3,4,5,5], 10) ) 
+print ( two_sum([1,2,3,4,5,5,6], 6) ) 

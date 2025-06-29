@@ -1,0 +1,2 @@
+def cards(cards):
+    cards

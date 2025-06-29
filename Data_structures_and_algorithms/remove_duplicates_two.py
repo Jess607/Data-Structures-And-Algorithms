@@ -21,4 +21,4 @@ def remove_duplicates_from_array(nums):
     #Return index which is inherently the number of elements in nums
     return index
 
-print(remove_duplicates_from_array([0,0,1,1,1,1,2,3,3]))
+print(remove_duplicates_from_array([1,2,2,2,3,3,3,3,3,4]))

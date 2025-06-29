@@ -19,4 +19,4 @@ def remove_duplicates_from_sorted_array(nums):
     return index
 
 
-print(remove_duplicates_from_sorted_array([1,1,2]))
+print(remove_duplicates_from_sorted_array([1,1,2,3]))

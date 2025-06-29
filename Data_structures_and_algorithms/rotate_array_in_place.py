@@ -6,10 +6,11 @@ def rotate_array_in_place(arr,k):
     k=k%length
     #If k is not zero meaning no swap is meant to happen, we swap our elements
     if k!=0:
-        arr[:k], arr[k:]=arr[-k:], arr[:length-k]
+        #arr[:k], arr[k:]=arr[-k:], arr[:length-k]
+        arr[:k], arr[k:]= arr[length-k:], arr[:length-k]
 
-arr=[1,2,3,4,5]
-rotate_array_in_place(arr,3)
+arr=[-1,-100,3,99]
+rotate_array_in_place(arr,2)
 print(arr)
 
 

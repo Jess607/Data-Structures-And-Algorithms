@@ -18,7 +18,7 @@ def subarray_sum(nums, target):
     return []
 
 
-
+print(subarray_sum([10,20,10,5], 35))
 
 
     

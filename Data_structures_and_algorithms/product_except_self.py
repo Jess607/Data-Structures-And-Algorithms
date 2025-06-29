@@ -14,3 +14,8 @@ def product_except_self(nums):
         right *= nums[i]
     
     return output
+
+
+
+
+print(product_except_self([1,2,3,4,5]))
